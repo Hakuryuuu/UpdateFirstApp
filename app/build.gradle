@@ -22,20 +22,21 @@ apply plugin: 'kotlin-kapt'
 
 
 android {
-    compileSdkVersion 28
-    dataBinding {
-        enabled = true
-    }
     //Add packagingOption
     packagingOptions {
         exclude 'META-INF/atomicfu.kotlin_module'
 
     }
+    compileSdkVersion 29
+    dataBinding {
+        enabled = true
+    }
+
 
     defaultConfig {
         applicationId 'com.example.android.navigation'
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 29
         vectorDrawables.useSupportLibrary = true
         versionCode 1
         versionName "1.0"

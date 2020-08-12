@@ -9,8 +9,4 @@
         android:id="@+id/rulesFragment"
         android:icon="@android:drawable/stat_sys_phone_call"
         android:title="@string/rules" />
-    <item
-        android:id="@+id/mainActivity2"
-        android:icon="@android:drawable/ic_dialog_info"
-        android:title="@string/Add_contact" />
 </menu>

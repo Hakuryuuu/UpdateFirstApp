@@ -10,7 +10,11 @@
         android:id="@+id/titleFragment"
         android:name="com.example.android.navigation.TitleFragment"
         android:label="fragment_title"
-        tools:layout="@layout/fragment_title" />
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_mainActivity2"
+            app:destination="@id/mainActivity2" />
+    </fragment>
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.android.navigation.AboutFragment"
