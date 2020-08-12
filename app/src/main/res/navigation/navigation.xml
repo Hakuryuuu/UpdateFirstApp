@@ -21,4 +21,9 @@
         android:name="com.example.android.navigation.ContactFragment"
         android:label="fragment_Contact"
         tools:layout="@layout/fragment_contact" />
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.android.navigation.MainActivity"
+        android:label="contact"
+        tools:layout="@layout/contact" />
 </navigation>

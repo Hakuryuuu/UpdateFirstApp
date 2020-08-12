@@ -20,12 +20,12 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="mainActivity">
+                  <entry key="mainActivity2">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-173" />
+                            <option name="x" value="-172" />
                             <option name="y" value="-354" />
                           </Point>
                         </option>
