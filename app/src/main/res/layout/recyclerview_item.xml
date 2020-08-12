@@ -26,4 +26,4 @@ limitations under the License. -->
         android:background="@android:color/holo_orange_light" />
 </LinearLayout>
 
-<!--Create recyclerview  -->
+<!--Create recyclerview -->
